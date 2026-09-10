@@ -1,0 +1,7 @@
+export anchor NodeMap:
+    pitch:
+        An infinite canvas of interconnected nodes representing the folders and
+        files of a specbase, with connections drawn between connected anchors
+        and symbols.
+
+        Unreached files and symbols will also be displayed.

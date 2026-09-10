@@ -1,0 +1,19 @@
+from ./Toolbar import Toolbar
+from ./StatusBar import StatusBar
+from ./NodeMap import NodeMap
+
+export anchor Layout:
+    header:
+        A @{Toolbar} with these groups and buttons:
+
+        - Group
+            - Open Directory
+        - Group
+            - About
+            - Exit
+
+    body:
+        @{NodeMap}
+
+    footer:
+        A @{StatusBar}

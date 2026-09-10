@@ -1,0 +1,7 @@
+export anchor StatusBar:
+    pitch:
+        a slim row that contains grouped text or icons that represent the
+        current status or state of whatever is contextually relevant.
+
+        Would be the name of an open file, could be a word count, could be small
+        icons/buttons reflecting global state.

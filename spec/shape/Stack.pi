@@ -1,0 +1,7 @@
+export anchor Stack:
+    language: Rust
+    gui: egui
+    platforms:
+        - Windows
+        - Linux
+        - macOS

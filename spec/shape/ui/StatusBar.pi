@@ -1,0 +1,7 @@
+from /concept/ui/StatusBar import StatusBar Concept
+
+export anchor StatusBar:
+    concept: @{Concept}
+
+    farLeft:
+        - The absolute path of the currently open directory

@@ -1,0 +1,4 @@
+from /concept/ui/Toolbar import Toolbar Concept
+
+export anchor Toolbar:
+    concept: @{Concept}

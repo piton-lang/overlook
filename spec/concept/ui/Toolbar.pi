@@ -1,0 +1,9 @@
+export anchor Toolbar:
+    pitch:
+        A toolbar is a reusable component that contains a list of buttons.
+
+        Those buttons can be text-only, icon-only, or text+icon.
+
+        Buttons can be grouped.
+
+        A toolbar can contain many groups.

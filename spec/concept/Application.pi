@@ -1,0 +1,8 @@
+from ./ui/NodeMap import NodeMap
+
+export anchor Application:
+    pitch:
+        An application for exploring Piton specifications.
+
+        You can open a directory with a `piton.config.pi` file, and explore the
+        structure of the entire spec via a @{NodeMap}.

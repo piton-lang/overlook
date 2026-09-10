@@ -1,0 +1,4 @@
+from /concept/ui/NodeMap import NodeMap Concept
+
+export anchor NodeMap:
+    concept: @{Concept}

@@ -1,0 +1,7 @@
+use @piton/belay
+
+from ../skills/BuildApplication import BuildApplication Skill
+
+export command BuildApplication:
+    description: ${self.prompt}
+    prompt: Trigger the ${Skill} skill
