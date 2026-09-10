@@ -1,0 +1,22 @@
+[package]
+name = "overlook"
+version = "0.1.0"
+edition = "2021"
+description = "An application for exploring Piton specifications."
+
+[dependencies]
+# The stack: Rust and egui, on Windows, Linux (Wayland and X11) and macOS.
+# The windowing backends are named explicitly so the supported platforms are
+# visible in the build, not left to the default feature set.
+eframe = { version = "0.36", features = ["wayland", "x11"] }
+rfd = "0.17"
+
+# The grammar the editor highlights with comes from the Piton language's own
+# repository, so the editor cannot disagree with the compiler about what a
+# `.pi` file says. The language server the editor talks to is built from the
+# same repository, and is spoken to over stdio.
+piton-syntax = { git = "https://github.com/piton-lang/piton-rs" }
+serde_json = "1"
+
+[profile.release]
+opt-level = 2

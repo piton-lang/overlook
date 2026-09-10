@@ -20,4 +20,5 @@ export anchor NodeMap:
         rearrange.
 
     edit:
-        When a single node is selected, a sidebar will appear with the @{Editor}
+        When a single node is selected, a resiable sidebar will appear with the
+        @{Editor}
