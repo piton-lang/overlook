@@ -1,2 +1,3 @@
 from ./BuildApplication export *
 from ./Testing export *
+from ./BuildEditor export *

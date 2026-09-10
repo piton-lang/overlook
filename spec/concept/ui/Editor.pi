@@ -1,0 +1,4 @@
+export anchor Editor:
+    pitch:
+        An editor for Piton files, complete with syntax highlighting and LSP
+        integration.

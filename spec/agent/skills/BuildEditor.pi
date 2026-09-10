@@ -1,0 +1,10 @@
+use /lib/build-skill
+
+from /concept/ui/Editor import Editor Concept
+from /shape/ui/Editor import Editor Shape
+
+export build-skill BuildEditor:
+    scope: Editor
+
+    concept: @{Concept}
+    shape: @{Shape}

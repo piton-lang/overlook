@@ -1,4 +1,4 @@
-from /concept/Testing import Testing Concept
+from /lib/Testing import Testing Concept
 
 export anchor Testing:
     concept: @{Concept}

@@ -3,12 +3,8 @@ use /lib/build-skill
 from /concept/Application import Application Concept
 from /shape/Application import Application Shape
 
-from /shape/Testing import Testing
-
 export build-skill BuildApplication:
     scope: Application
 
     concept: @{Concept}
     shape: @{Shape}
-
-    testing: @{Testing}

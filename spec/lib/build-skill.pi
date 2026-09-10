@@ -2,6 +2,8 @@ use @piton/belay
 
 from @piton/belay import __BELAY_SHAPE__
 
+from ./Testing import Testing
+
 export abstract skill BuildSkill as build-skill:
     description: build or change the ${self.scope} scope
     useWhen: you need to ${self.description}
@@ -21,5 +23,7 @@ export abstract skill BuildSkill as build-skill:
         Use the directory structure of ${__BELAY_SHAPE__} to guide how to
         structure and organize the code.  If the shape changes, refactor the
         code to match.
+
+    testing: @{Testing}
 
     scope:: string

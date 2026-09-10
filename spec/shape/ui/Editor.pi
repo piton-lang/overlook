@@ -1,0 +1,12 @@
+from /concept/ui/Editor import Editor Concept
+
+export anchor Editor:
+    concept: @{Concept}
+
+    repo:
+        code for the LSP and Grammars from here:
+        https://github.com/piton-lang/piton-rs/
+
+    layout:
+        Small header on top with a Save and Cancel button on the left, and a
+        close button on the right.

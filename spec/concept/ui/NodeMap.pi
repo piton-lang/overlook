@@ -1,3 +1,5 @@
+from ./Editor import Editor
+
 export anchor NodeMap:
     pitch:
         An infinite canvas of interconnected nodes representing the folders and
@@ -16,3 +18,6 @@ export anchor NodeMap:
     focusMode:
         When you focus on a node, all other nodes disappear and the nodes
         rearrange.
+
+    edit:
+        When a single node is selected, a sidebar will appear with the @{Editor}
