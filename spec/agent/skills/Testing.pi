@@ -1,0 +1,19 @@
+use @piton/belay
+
+export skill Testing:
+    description: write, run, and rework tests for the application.
+    useWhen: you need to ${self.description}
+
+    prompt:
+        Tests should be written once when they're first needed.  They should be
+        written to test the intent and implementation as scoped by what the test
+        is about.  For example, if a test is about clicking a button, it should
+        test the clickability of the button, not the visual style.  If a test is
+        about visual contrast, then it should focus on style, not functionality.
+
+        Testing should be thorough and robust.
+
+    whenToAlterATest:
+        You can alter a test when the thing its testing intentionally changes.
+        You cannot alter a test when a test starts breaking unless that breakage
+        was expected.

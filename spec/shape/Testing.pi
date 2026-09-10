@@ -1,0 +1,8 @@
+from /concept/Testing import Testing Concept
+
+export anchor Testing:
+    concept: @{Concept}
+
+    implementationDetails:
+        And visual or interaction testing should be through a self-contained
+        harness that does not require external control via the operating system.

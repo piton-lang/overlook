@@ -5,3 +5,14 @@ export anchor NodeMap:
         and symbols.
 
         Unreached files and symbols will also be displayed.
+
+    interaction:
+        You can click and drag nodes around.
+
+        You can select nodes.
+
+        You can focus on a node to see its connections.
+
+    focusMode:
+        When you focus on a node, all other nodes disappear and the nodes
+        rearrange.

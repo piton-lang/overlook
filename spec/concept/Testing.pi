@@ -1,0 +1,4 @@
+export anchor Testing:
+    pitch:
+        The implementation should be thoroughly tested.  Unit tests and
+        visual/interaction testing.
