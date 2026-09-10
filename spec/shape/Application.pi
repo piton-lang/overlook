@@ -3,6 +3,8 @@ from ./Stack import Stack
 from ./ui/Layout import Layout
 
 export anchor Application:
+    name: Overlook
+
     concept: @{Concept}
     stack: @{Stack}
     layout: @{Layout}
